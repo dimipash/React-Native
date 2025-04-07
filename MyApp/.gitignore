@@ -1,0 +1,59 @@
+app-example
+
+# IDE / Editor specific
+.vscode/
+.idea/
+
+# Native builds (if ejected or using native modules)
+android/build/
+ios/build/
+ios/Pods/
+
+# Logs
+*.log
+logs/
+*.log.*.[0-9]
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
