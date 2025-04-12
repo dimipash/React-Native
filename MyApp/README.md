@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+# MyApp (Coffee Menu App)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native application showcasing a coffee menu, built with Expo.
 
-## Get started
+## Overview
 
-1. Install dependencies
+This application displays a menu of coffee items, likely for a coffee shop. It demonstrates UI components, navigation, and potentially data handling for menu items within a React Native and Expo environment.
 
-   ```bash
-   npm install
-   ```
+## Getting Started
 
-2. Start the app
+### Prerequisites
 
-   ```bash
+- Node.js (LTS version recommended)
+- npm or yarn
+- Expo Go app on your mobile device or an emulator/simulator
+
+### Installation
+
+1.  **Clone this repository**
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+### Running the Application
+
+1.  **Start the development server:**
+    ```bash
     npx expo start
-   ```
+    ```
+2.  **Open the app:**
+    - Scan the QR code using the Expo Go app on your iOS or Android device.
+    - Or, press `a` to run on an Android emulator, `i` to run on an iOS simulator, or `w` to run in the web browser.
 
-In the output, you'll find options to open the app in a
+## Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- `app/`: Contains the main application screens (e.g., `index.jsx`, `menu.jsx`, `contact.jsx`) and navigation setup using Expo Router.
+- `assets/`: Static assets including fonts and images (menu item images, icons).
+- `components/`: Reusable UI components used throughout the application.
+- `constants/`: Application constants, such as color definitions and menu item data.
+- `hooks/`: Custom React hooks for shared logic.
+- `scripts/`: Utility scripts for the project.
+- `app.json`: Expo configuration file.
+- `package.json`: Project dependencies and scripts.

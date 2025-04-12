@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# CrudApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple React Native application demonstrating CRUD (Create, Read, Update, Delete) operations.
 
-## Get started
+## Overview
 
-1. Install dependencies
+This application provides basic functionality for managing a list of items (likely todos based on the project structure). It serves as a fundamental example of data manipulation in a React Native environment using Expo.
 
-   ```bash
-   npm install
-   ```
+## Getting Started
 
-2. Start the app
+### Prerequisites
 
-   ```bash
+- Node.js (LTS version recommended)
+- npm or yarn
+- Expo Go app on your mobile device or an emulator/simulator
+
+### Installation
+
+1.  **Clone the repository (if applicable):**
+    ```bash
+    git clone <your-repo-url>
+    cd React-Native/CrudApp
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+### Running the Application
+
+1.  **Start the development server:**
+    ```bash
     npx expo start
-   ```
+    ```
+2.  **Open the app:**
+    - Scan the QR code using the Expo Go app on your iOS or Android device.
+    - Or, press `a` to run on an Android emulator, `i` to run on an iOS simulator, or `w` to run in the web browser.
 
-In the output, you'll find options to open the app in a
+## Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- `app/`: Contains the main application screens and navigation logic (using Expo Router).
+- `assets/`: Static assets like images and fonts.
+- `data/`: Contains sample data (e.g., `todos.js`).
+- `app.json`: Expo configuration file.
+- `package.json`: Project dependencies and scripts.
