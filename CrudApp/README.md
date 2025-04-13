@@ -1,10 +1,17 @@
 # CrudApp
 
-A simple React Native application demonstrating CRUD (Create, Read, Update, Delete) operations.
+A simple React Native application demonstrating CRUD (Create, Read, Update, Delete) operations with additional features like theme switching and persistent storage.
 
 ## Overview
 
-This application provides basic functionality for managing a list of items (likely todos based on the project structure). It serves as a fundamental example of data manipulation in a React Native environment using Expo.
+This application provides functionality for:
+- Managing a list of todos with full CRUD operations
+- Switching between light and dark themes
+- Persisting todos between app sessions
+- Using custom fonts (Inter)
+- Automatic status bar theming
+
+Built with React Native and Expo, it serves as a comprehensive example of modern mobile app development patterns.
 
 ## Getting Started
 
@@ -16,11 +23,7 @@ This application provides basic functionality for managing a list of items (like
 
 ### Installation
 
-1.  **Clone the repository (if applicable):**
-    ```bash
-    git clone <your-repo-url>
-    cd React-Native/CrudApp
-    ```
+1.  **Clone this repository**
 2.  **Install dependencies:**
     ```bash
     npm install
@@ -38,10 +41,31 @@ This application provides basic functionality for managing a list of items (like
     - Scan the QR code using the Expo Go app on your iOS or Android device.
     - Or, press `a` to run on an Android emulator, `i` to run on an iOS simulator, or `w` to run in the web browser.
 
+## Features
+
+- **Todo Management**:
+  - Add new todos
+  - Mark todos as complete/incomplete
+  - Delete todos
+  - Todos persist between app sessions using AsyncStorage
+
+- **Theme System**:
+  - Light/dark mode toggle
+  - Automatic theme detection based on system preferences
+  - Themed UI components (backgrounds, text, buttons)
+  - Status bar theming
+
+- **UI Enhancements**:
+  - Custom Inter font
+  - Responsive layout
+  - Smooth animations
+
 ## Project Structure
 
-- `app/`: Contains the main application screens and navigation logic (using Expo Router).
-- `assets/`: Static assets like images and fonts.
-- `data/`: Contains sample data (e.g., `todos.js`).
-- `app.json`: Expo configuration file.
-- `package.json`: Project dependencies and scripts.
+- `app/`: Main application screens and components
+- `assets/`: Static assets like images and fonts
+- `context/`: Theme context and provider
+- `data/`: Sample data and initial todos
+- `constants/`: Color definitions for themes
+- `app.json`: Expo configuration
+- `package.json`: Project dependencies and scripts
